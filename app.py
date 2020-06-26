@@ -18,7 +18,7 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/pred', methods=['POST'])
+@app.route('/pred/', methods=['POST'])
 def pred():
     sent = request.form['message']
     sent = sent.lower()
