@@ -41,7 +41,7 @@ def pred():
     else:
         val = 'Negative'    
 
-    return render_template('two.html', pred_text = 'It is a {b} review'.format(b=val))
+    return render_template('two.html', pred_text = "That's a {b} review".format(b=val))
 
 if __name__ == '__main__':
     app.run(debug=True)
