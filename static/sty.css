@@ -21,12 +21,9 @@ button{
 .d{
     background-color: rgb(44, 44, 44);
     color: rgb(55, 255, 178);
-    height: 100px;
+    height: 150px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
-/* .we{
-    margin-top: 80px;
-    font-size: 30px;
-} */
+
 
