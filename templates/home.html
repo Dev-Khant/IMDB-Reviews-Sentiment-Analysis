@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scaling=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='sty.css') }}">
+        <title>IMDB Reviews</title>
+    </head>
+    <body>
+        <form action="{{ url_for('pred') }}" method="POST">
+            <div class='d'>
+                <h1>Movie Review's Sentiment Analyser</h1>
+            </div>
+            <textarea required placeholder="Write a movie review" name='message' class="form-control col-lg-4" rows="4"></textarea>
+            <br>
+            <button type='submit' class="btn btn-primary">See</button>
+        </form>
+    </body>
+</html>
