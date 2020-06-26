@@ -1,1 +1,1 @@
-web: gunicorn app:IMDB Reviews
+web: gunicorn IMDB Reviews:app
