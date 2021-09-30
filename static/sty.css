@@ -25,5 +25,23 @@ button{
     text-align: center;
     padding-top: 30px;
 }
+footer{
+    height: 5vh;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    font-size: 1.5vw;
+    background-color: rgb(44, 44, 44);
+}
+footer .content{
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .content a{
+    text-decoration: none;
+    color: rgb(55, 255, 178);
+}
 
 
