@@ -1,4 +1,4 @@
-A movies sentiment analyser using Support Vector Machine.
+A movie reviews sentiment analyser using Support Vector Machine.
 
 Deployed Website https://movies-reviews-sentiment.herokuapp.com/ (Might take few seconds to load)
 
