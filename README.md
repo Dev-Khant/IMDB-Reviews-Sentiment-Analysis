@@ -6,7 +6,7 @@ Dataset from https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-re
 
 <h2>➤ Review Entered by the user</h2>
 
-![](templates/asking%20for%20the%20review.png)
+![](templates/asking%20for%20the%20review.png)</br></br>
 
 <h2>➤ Review will be answered</h2>
 
